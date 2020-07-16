@@ -1,8 +1,9 @@
 const express=require('express');
 const app=express();
 const colors = require('colors');
+var cors=require('cors');
 app.use(express.json());
-
+app.use(cors());
 
 
 //--------------------MONGODB CONNECTION----------------------//

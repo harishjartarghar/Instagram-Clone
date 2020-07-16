@@ -5,6 +5,7 @@ const postSchema=mongoose.Schema({
     caption:{type:String},
     location:{type:String},
     photo:{type:String},
+    likes:[{type:ObjectId,ref:"User"}],
     postedBy:{type:ObjectId,ref:"User"}
 },{timestamp:true});
 
