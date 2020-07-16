@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+a{
+  color: black !important;
+}
+nav{
+  background-color: #fff;
+}
+.brand-logo{
+  font-family: 'Grand Hotel', cursive;
+  font-size: large;
+}
+
+
+
+
+@media only screen and (min-width: 992px)
+{
+  .logo{
+    margin-left: 30px;
+  }
+}
+
+.mycard{
+  margin-top: 40px;
+}
+.auth-card{
+  max-width: 400px;
+  text-align: center;
+  margin: 10px auto;
+  
+}
+
+
+
+.card-title{
+  font-family: 'Grand Hotel', cursive;
+  font-size: 50px;
+  padding-bottom: 20px;
+}
+
+.border{
+  max-width: 300px !important;
+  border: 1px solid rgba(var(--ca6,219,219,219),1);
+  background-color: rgba(var(--b3f,250,250,250),1);
+  margin: 10px auto;
+}
+.input-field input[type=text]:focus {
+  border-bottom: 0px solid #fff !important;
+  box-shadow: 0 0px 0 0 #000 !important;
+}
+
+.input-field input[type=password]:focus {
+  border-bottom: 0px solid #fff !important;
+  box-shadow: 0 0px 0 0 #000 !important;
+}
+
+.input-field input[type=text].valid {
+  border-bottom: 0px solid #000 !important;
+  box-shadow: 0 0px 0 0 #000 !important;
+}
+
+.input-field input[type=password].valid {
+  border-bottom: 0px solid #000 !important;
+  box-shadow: 0 0px 0 0 #000 !important;
+}
+
+.input{
+  height: 30px !important;
+  border-bottom: none !important;
+  text-align: left;
+}
+
+.margin{
+  margin-top: 20px !important;
+}
+
+.button{
+  margin-top: 20px !important;
+  min-width: 300px !important;
+  height: 30px;
+  background-color: #0095f6;
+  color: white !important;
+  border: none !important;
+  border-radius: 3px;
+}
+
+.profile_button{
+  background-color: #0095f6;
+  color: white !important;
+  border: none !important;
+  border-radius: 3px;
+  font-size: 12px;
+}
+
+.postButton{
+  background-color: #0095f6;
+  color: white !important;
+  width: 30%;
+  height: 30px;
+  border: none !important;
+  border-radius: 3px;
+}
+
+.signup{
+  color: #0095f6 !important; 
+}
+
+.page-footer{
+  background-color: #fff !important;
+  
+
+}
+.footer-copyright{
+  background-color: #fff !important;
+ 
+}
+.copyright{
+ width: 100% !important;
+ color: #000;
+ text-align: center !important;
+}
+
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+.item{
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.border-line{
+  border-bottom: 2px solid grey;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  margin-bottom: 20px;
+  
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row{
+  margin-bottom: 0 !important;
+}
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  
+}
+
+.image-profile{
+  width:120px;
+  height:120px;
+  border-radius:80px
+}
+
+.home-card{
+  max-width:500px;
+  height: max-content;
+  margin: 26px auto;
+}
+
+.dropdown-content{
+  width: max-content !important;
+  height:auto !important;
+}
+
+.image-style{
+  width:100% ;
+  height:150px ;
+}
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .auth-card{
+    max-width: 300px;
+    text-align: center;
+    margin: 10px auto;
+    
+  }
+
+  .button{
+    min-width: 253px !important;
+    height: 30px;
+    background-color: #0095f6;
+    color: white !important;
+    border: none !important;
+    border-radius: 3px;
+  }
+
+  .image-profile{
+    width:80px;
+    height:80px;
+    border-radius:80px
+  }
+
+  
+
+  .home-card{
+    max-width:300px;
+    height: max-content;
+    margin: 26px auto;
+  }
+
+  #toast-container{
+    top:0px;
+    min-width: 100px;
+    left: 20px;
+    right: 20px;
+  }
+
+  .fontsize{
+    font-size: 14px;
+  }
+
+  .image-style{width:100%;height:100px}
+  
+}
